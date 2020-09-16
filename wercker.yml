@@ -18,7 +18,7 @@ build:
        
     - internal/docker-push:
            repository: $REPONAME
-           registry: iad.ocir.io
+           #registry: iad.ocir.io
            username: $USERNAME
            password: $PASSWORD
            image-name: $IMAGE_BASE 
