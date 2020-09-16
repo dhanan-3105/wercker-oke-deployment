@@ -32,7 +32,7 @@ build:
           echo "image pushed is $PUSHED_IMAGE"
     - internal/docker-run:
            name: test-container
-           registry: iad.ocir.io
+           #registry: iad.ocir.io
            username: $USERNAME
            password: $PASSWORD
            image: $PUSHED_IMAGE
